@@ -4,6 +4,7 @@ import './App.css';
 import HomePage from './HomePage';
 import StateComp from './StateComp';
 import NewComp from './NewComp';
+import StudentComp from './StudentComp';
 
 function App() {
 
@@ -25,7 +26,8 @@ function App() {
 
   return (
     <div className="App">
-      <StateComp  component={ <NewComp /> } />
+      <StudentComp />
+      {/* <StateComp  component={ <NewComp /> } /> */}
      {/* <HomePage name='ankit' asset={asset} student={student} arr={ arr } arrayOfObject={arrayOfObject} />  */}
     </div>
   );
