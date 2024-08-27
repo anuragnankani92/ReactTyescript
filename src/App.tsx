@@ -5,6 +5,8 @@ import HomePage from './HomePage';
 import StateComp from './StateComp';
 import NewComp from './NewComp';
 import StudentComp from './StudentComp';
+import Tailwind from './Tailwind';
+import AddTailwind from './AddTailwind';
 
 function App() {
 
@@ -26,7 +28,9 @@ function App() {
 
   return (
     <div className="App">
-      <StudentComp />
+      {/* <Tailwind /> */}
+      <AddTailwind />
+      {/* <StudentComp /> */}
       {/* <StateComp  component={ <NewComp /> } /> */}
      {/* <HomePage name='ankit' asset={asset} student={student} arr={ arr } arrayOfObject={arrayOfObject} />  */}
     </div>
